@@ -13,7 +13,7 @@
     <div class="container mx-auto px-4">
         <h2 class="text-3xl font-bold text-center mb-4 text-white">Pricing</h2>
         <p class="text-center text-white mb-12 max-w-2xl mx-auto">Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics</p>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-[70%] mx-auto">
             <div class="bg-white p-8 rounded-lg shadow-md">
                 <h3 class="text-2xl font-bold text-center mb-4">FREE</h3>
                 <p class="text-center text-gray-600 mb-6">Organize across all apps by hand</p>
@@ -117,31 +117,33 @@
         <img src="images/make-an-appointment.jpg" alt="Family together" class="w-full h-full object-cover">
     </div>
     <div class="container mx-auto px-4 relative z-10">
-        <div class="max-w-lg">
-            <p class="text-black-500 mb-2">Contact Us</p>
+       <div class="w-1/2 p-4">
+            <p class="text-black-500 mb-2 font-bold">Contact Us</p>
             <h2 class="text-4xl font-bold text-black mb-8">Make an Appointment</h2>
-            <form class="space-y-4">
+            
+            <form class="space-y-4 w-full">
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <input type="text" placeholder="Full Name *" class="w-full p-3 bg-white bg-opacity-20 text-white placeholder-white border border-white rounded" required>
-                    <input type="email" placeholder="Email *" class="w-full p-3 bg-white bg-opacity-20 text-white placeholder-white border border-white rounded" required>
+                    <input type="text" placeholder="Full Name *" class="w-full p-3 bg-white bg-opacity-20 text-grey placeholder-black border border-grey rounded" required>
+                    <input type="email" placeholder="Email *" class="w-full p-3 bg-white bg-opacity-20 text-grey placeholder-black border border-grey rounded" required>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <select class="w-full p-3 bg-white bg-opacity-20 text-white border border-white rounded">
+                    <select class="w-full p-3 bg-white bg-opacity-20 text-grey border border-grey rounded">
                         <option>Please Select</option>
                         <option>Option 1</option>
                         <option>Option 2</option>
                         <option>Option 3</option>
                     </select>
-                    <select class="w-full p-3 bg-white bg-opacity-20 text-white border border-white rounded">
+                    <select class="w-full p-3 bg-white bg-opacity-20 text-grey border border-grey rounded">
                         <option>4:00 Available</option>
                         <option>5:00 Available</option>
                         <option>6:00 Available</option>
                         <option>7:00 Available</option>
                     </select>
                 </div>
-                <textarea rows="5" placeholder="Message" class="w-full p-3 bg-white bg-opacity-20 text-white placeholder-white border border-white rounded"></textarea>
-                <button type="submit" class="bg-blue-500 text-white px-8 py-3 rounded">Book Appointment</button>
+                <textarea rows="5" placeholder="Message" class="w-full p-3 bg-white bg-opacity-20 text-grey placeholder-grey border border-grey rounded"></textarea>
+                <button type="submit" class="bg-blue-500 text-grey px-8 py-3 rounded">Book Appointment</button>
             </form>
+           
         </div>
     </div>
 </section>
